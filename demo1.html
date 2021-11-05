@@ -1,44 +1,86 @@
 <!DOCTYPE html>
 <html>
-  <h1>hello world!</h1>
+    <style>
+     b {background-color:yellow;}
+     h1 {color:red; background-color: yellow;}
+
+     ol li {color:green;}
+     li {color:red;}
+
+     #second {color:blue;}
+     li.highlighted {background-color: yellow;}
+     div.highlighted {background-color: pink;}
+
+     .boxed {border-style: solid;
+	 border-width: 0.1em;
+	 padding: .5em;
+	 margin: .5em;
+	 border-radius:0.2em;
+     }
+     .bigger {font-size: 3em;}
+    </style>
+
+    <h1>hello world!</h1>
 
 
-  <h2>a subtitle</h2>
-  
-  This is <b>some</b> text
-  <br>
-  on <b>multiple</b> lines
-  <hr>
+    <h2>a subtitle</h2>
+    
+    This is <b>some</b> text
+    <br>
+    on <b>multiple</b> lines
+    <hr>
 
-  <ul>
-      <li>one </li>
-      <li>two</li>
-      <li>three</li>
-      <li>four</li>
-      <li>five</li>
-  </ul>
+    <ul>
+	<li>one </li>
+	<li id="second">two</li>
+	<li class="boxed highlighted">three</li>
+	<li>four</li>
+	<li>five</li>
+    </ul>
 
-  <a href="http://cestlaz.github.io">My Web Site</a>
+    <ol>
+	<li>one </li>
+	<li class="highlighted">two</li>
+	<li>three</li>
+	<li class="boxed">four</li>
+	<li>five</li>
+    </ol>
 
-  <img width=20% src="https://hunter.cuny.edu/assets/hunter-logo.svg">
+    <a href="http://cestlaz.github.io">My Web Site</a>
 
-  <img width=20% src="m.jpg">
+    <img width=20% src="https://hunter.cuny.edu/assets/hunter-logo.svg">
 
-  <form>
-      <text>Name: </text> <input>
-      <br>
-      <text>Password: </text> <input type="password">
-      <button>submit</button>
-  </form>
+    <img width=20% src="m.jpg">
+
+    <form class="boxed bigger">
+	<text>Name: </text> <input>
+	<br>
+	<text>Password: </text> <input type="password">
+	<button>submit</button>
+    </form>
 
 
-  
-  <p>
-      Aliquam erat volutpat.  Nunc eleifend leo vitae magna.  In id erat non orci commodo lobortis.  Proin neque massa, cursus ut, gravida ut, lobortis eget, lacus.  Sed diam.  Praesent fermentum tempor tellus.  Nullam tempus.  Mauris ac felis vel velit tristique imperdiet.  Donec at pede.  Etiam vel neque nec dui dignissim bibendum.  Vivamus id enim.  Phasellus neque orci, porta a, aliquet quis, semper a, massa.  Phasellus purus.  Pellentesque tristique imperdiet tortor.  Nam euismod tellus id erat.
-  </p>
-  <p>
-      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  Donec hendrerit tempor tellus.  Donec pretium posuere tellus.  Proin quam nisl, tincidunt et, mattis eget, convallis nec, purus.  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.  Nulla posuere.  Donec vitae dolor.  Nullam tristique diam non turpis.  Cras placerat accumsan nulla.  Nullam rutrum.  Nam vestibulum accumsan nisl.
-  </p>
-  
-  
+    
+    <div class="highlighted boxed ">
+	Aliquam erat volutpat.  Nunc eleifend leo vitae magna.  In id
+	erat non orci commodo lobortis.  Proin neque massa, cursus ut,
+	gravida  lacus.  Sed diam.  Praesent
+	fermentum tempor tellus.  Nullam tempus.  Mauris ac felis vel
+	velit tristique imperdiet.  Donec at pede.  Etiam vel neque
+	nec dui dignissim bibendum.  Vivamus id enim.  Phasellus neque
+	orci, porta a, aliquet quis, semper a, massa.  Phasellus
+	purus.  Pellentesque tristique imperdiet tortor.  Nam euismod
+	tellus id erat.
+    </div>
+    <div>
+	Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+	Donec hendrerit tempor tellus.  Donec pretium posuere tellus.
+	Proin quam nisl, tincidunt et, mattis eget, convallis nec,
+	purus.  Cum sociis natoque penatibus et magnis dis parturient
+	montes, nascetur ridiculus mus.  Nulla posuere.  Donec vitae
+	dolor.  Nullam tristique diam non turpis.  Cras placerat
+	accumsan nulla.  Nullam rutrum.  Nam vestibulum accumsan nisl.
+    </div>
+    
+    
 </html>
